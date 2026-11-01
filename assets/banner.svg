@@ -51,10 +51,10 @@
     <circle cx="40" cy="36" r="6" fill="#ff5f56"/>
     <circle cx="62" cy="36" r="6" fill="#ffbd2e"/>
     <circle cx="84" cy="36" r="6" fill="#27c93f"/>
-    <text x="110" y="41" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#6b7aa3">~/imadhimthiyaz — zsh</text>
+    <text x="110" y="41" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8a99c2">~/imadhimthiyaz — zsh</text>
   </g>
 
-  <text x="60" y="100" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#6b7aa3">$ whoami</text>
+  <text x="60" y="100" font-family="Consolas, 'Courier New', monospace" font-size="24" fill="#8a99c2">$ whoami</text>
 
   <!-- name with neon glow -->
   <text x="60" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1" fill="url(#neon)" filter="url(#blur)" opacity="0.55">IMTHIYAS MOHOMED IMADH</text>
@@ -69,7 +69,7 @@
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
 
-  <text x="60" y="262" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#6b7aa3">PHP · Laravel · TypeScript · MySQL · POS &amp; SaaS systems</text>
+  <text x="60" y="266" font-family="Consolas, 'Courier New', monospace" font-size="22" fill="#8a99c2">PHP · Laravel · TypeScript · MySQL · POS &amp; SaaS systems</text>
 
   <!-- scanline -->
   <rect x="0" y="0" width="1000" height="3" fill="#00f0ff" opacity="0.12">

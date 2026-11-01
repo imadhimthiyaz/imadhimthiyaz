@@ -11,5 +11,5 @@
   <circle cx="0" cy="30" r="4" fill="#00f0ff">
     <animate attributeName="cx" values="0;1000" dur="4s" repeatCount="indefinite"/>
   </circle>
-  <text x="500" y="52" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="12" fill="#6b7aa3">// built with code, coffee &amp; curiosity</text>
+  <text x="500" y="52" text-anchor="middle" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#8a99c2">// built with code, coffee &amp; curiosity</text>
 </svg>

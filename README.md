@@ -18,12 +18,12 @@
 ```bash
 $ cat about.md
 
-role       : Full-Stack Developer
-focus      : POS, inventory & management platforms (SaaS)
-building   : multi-tenant systems with SMS, billing & reporting
-stack      : PHP / Laravel / TypeScript / MySQL
-mindset    : clean code, solid data models, fast interfaces
-status     : open to freelance & collaboration
+role     : Full-Stack Developer
+focus    : POS & management systems
+building : multi-tenant SaaS platforms
+stack    : PHP, Laravel, TypeScript, MySQL
+mindset  : clean code, fast interfaces
+status   : open to freelance work
 ```
 
 ### `>_ stack.json`
@@ -46,13 +46,11 @@ status     : open to freelance & collaboration
 
 ### `>_ systems.log`
 
-| Module | Description |
-|:--|:--|
-| **`ivenza-pos`** | Point-of-sale & inventory for mobile and retail shops: sales, purchases, repairs, returns, SMS |
-| **`msms-central`** | Multi-client control panel for licensing, updates, announcements and backups |
-| **`perfume-pos`** | POS with GRN, decant, offers, payroll and accounting modules |
-| **`pc-monitor`** | Device-uptime monitor with push alerts and a PWA dashboard |
-| **`jajm`** | Masjid management system with a member portal |
+- **Ivenza POS**: sales, purchases, repairs, returns and SMS for mobile and retail shops
+- **MSMS Central**: licensing, updates, announcements and backups across clients
+- **Perfume POS**: GRN, decant, offers, payroll and accounting
+- **PC Monitor**: device-uptime monitoring with push alerts (PWA)
+- **JAJM**: masjid management system with a member portal
 
 > Client work is kept in private repositories. Source is available on request.
 
