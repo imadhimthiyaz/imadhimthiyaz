@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05070d"/>
+      <stop offset="0.6" stop-color="#0a1020"/>
+      <stop offset="1" stop-color="#101a3a"/>
+    </linearGradient>
+    <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"/>
+      <stop offset="0.55" stop-color="#4d7cff"/>
+      <stop offset="1" stop-color="#b44dff"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#00f0ff" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <radialGradient id="glowA" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#b44dff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#b44dff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0.1" cy="0.95" r="0.6">
+      <stop offset="0" stop-color="#00f0ff" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#00f0ff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="3"/></filter>
+    <clipPath id="type">
+      <rect x="60" y="188" width="0" height="40">
+        <animate attributeName="width" values="0;360;360;0" keyTimes="0;0.45;0.9;1" dur="7s" repeatCount="indefinite"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <rect width="1000" height="300" rx="14" fill="url(#bg)"/>
+  <rect width="1000" height="300" rx="14" fill="url(#grid)"/>
+  <rect width="1000" height="300" rx="14" fill="url(#glowA)"/>
+  <rect width="1000" height="300" rx="14" fill="url(#glowB)"/>
+
+  <!-- circuit traces -->
+  <g fill="none" stroke="#00f0ff" stroke-opacity="0.35" stroke-width="1.5">
+    <path d="M620 40H760L790 70H940"/>
+    <path d="M680 260H800L830 230H980"/>
+    <path d="M900 120H960L985 145"/>
+  </g>
+  <g fill="#00f0ff">
+    <circle cx="940" cy="70" r="3"><animate attributeName="opacity" values="1;0.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="980" cy="230" r="3"><animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/></circle>
+    <circle cx="985" cy="145" r="3"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- window chrome -->
+  <g>
+    <circle cx="40" cy="36" r="6" fill="#ff5f56"/>
+    <circle cx="62" cy="36" r="6" fill="#ffbd2e"/>
+    <circle cx="84" cy="36" r="6" fill="#27c93f"/>
+    <text x="110" y="41" font-family="Consolas, 'Courier New', monospace" font-size="13" fill="#6b7aa3">~/imadhimthiyaz — zsh</text>
+  </g>
+
+  <text x="60" y="100" font-family="Consolas, 'Courier New', monospace" font-size="18" fill="#6b7aa3">$ whoami</text>
+
+  <!-- name with neon glow -->
+  <text x="60" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1" fill="url(#neon)" filter="url(#blur)" opacity="0.55">IMTHIYAS MOHOMED IMADH</text>
+  <text x="60" y="160" font-family="'Segoe UI', Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="1" fill="url(#neon)">IMTHIYAS MOHOMED IMADH</text>
+
+  <!-- typed role -->
+  <g clip-path="url(#type)">
+    <text x="60" y="216" font-family="Consolas, 'Courier New', monospace" font-size="26" fill="#00f0ff">&gt; Full-Stack Developer</text>
+  </g>
+  <rect x="60" y="194" width="14" height="28" fill="#00f0ff">
+    <animate attributeName="x" values="60;420;420;60" keyTimes="0;0.45;0.9;1" dur="7s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+
+  <text x="60" y="262" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#6b7aa3">PHP · Laravel · TypeScript · MySQL · POS &amp; SaaS systems</text>
+
+  <!-- scanline -->
+  <rect x="0" y="0" width="1000" height="3" fill="#00f0ff" opacity="0.12">
+    <animate attributeName="y" values="0;300;0" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <rect width="1000" height="300" rx="14" fill="none" stroke="url(#neon)" stroke-opacity="0.55" stroke-width="1.5"/>
+</svg>
